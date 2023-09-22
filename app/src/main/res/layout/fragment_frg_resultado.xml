@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frgResultado">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="frgResultado">
+
+
+        <TextView
+            android:id="@+id/txtSet5"
+            android:layout_width="43dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="36dp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/txtSet4"
+            app:layout_constraintTop_toBottomOf="@+id/txtResultado" />
+
+        <TextView
+            android:id="@+id/txtSet3"
+            android:layout_width="43dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="36dp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/txtSet2"
+            app:layout_constraintTop_toBottomOf="@+id/txtResultado" />
+
+        <TextView
+            android:id="@+id/txtSet4"
+            android:layout_width="43dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="36dp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/txtSet3"
+            app:layout_constraintTop_toBottomOf="@+id/txtResultado" />
+
+        <TextView
+            android:id="@+id/txtVs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:text="@string/vs"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/txtPlayer2"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toEndOf="@+id/txtPlayer1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtPlayer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="124dp"
+            android:text="@string/player1"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtPlayer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:layout_marginEnd="84dp"
+            android:text="@string/player2"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/restultado"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPlayer1" />
+
+        <TextView
+            android:id="@+id/txtSet1"
+            android:layout_width="43dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="36dp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtResultado" />
+
+        <TextView
+            android:id="@+id/txtSet2"
+            android:layout_width="43dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="36dp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toEndOf="@+id/txtSet1"
+            app:layout_constraintTop_toBottomOf="@+id/txtResultado" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="76dp"
+            android:text="@string/reiniciar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnRejugada"
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtGanador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/ganador"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtSet1" />
+
+        <TextView
+            android:id="@+id/txtGanadorGrande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/swMusic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtGanador"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btnRejugada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="76dp"
+            android:text="@string/rejugada"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Switch
+            android:id="@+id/swMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:text="@string/musica"
+            android:checked="true"
+            app:layout_constraintBottom_toTopOf="@+id/btnRejugada"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

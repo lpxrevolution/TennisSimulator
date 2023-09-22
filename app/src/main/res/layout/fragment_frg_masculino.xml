@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frgMascFem">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtMMasculina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:text="@string/categor_a_masculina"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spnPlayer1"
+            android:layout_width="141dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="@string/tenistas_masculinos"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMMasculina"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Spinner
+            android:id="@+id/spnPlayer2"
+            android:layout_width="141dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMMasculina"
+            tools:ignore="DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/txtVs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="9dp"
+            android:text="@string/vs"
+            app:layout_constraintEnd_toStartOf="@+id/spnPlayer2"
+            app:layout_constraintHorizontal_bias="0.547"
+            app:layout_constraintStart_toEndOf="@+id/spnPlayer1"
+            app:layout_constraintTop_toBottomOf="@+id/txtMMasculina" />
+
+        <TextView
+            android:id="@+id/txtProbPlayer1"
+            android:layout_width="62dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/_0"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtProbabildad1" />
+
+        <TextView
+            android:id="@+id/txtProbPlayer2"
+            android:layout_width="56dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="68dp"
+            android:text="@string/_0"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtProbabilidad2" />
+
+        <TextView
+            android:id="@+id/txtProbabildad1"
+            android:layout_width="81dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/probabilidad"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spnPlayer1" />
+
+        <TextView
+            android:id="@+id/txtProbabilidad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="56dp"
+            android:text="@string/probabilidad"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spnPlayer2" />
+
+        <Button
+            android:id="@+id/btnJugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="68dp"
+            android:text="@string/jugar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Simulador Tennis</string>
+    <string name="simulador_de_tennis">Simulador de Tennis</string>
+    <string name="introduzca_su_nombre">Introduzca su nombre:</string>
+    <string name="tu_nombre">Tu nombre</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="_99">99</string>
+    <string name="elige_categor_a">Elige Categoría:</string>
+    <string name="indique_su_edad">Indique su edad:</string>
+    <string name="femenina">Femenina</string>
+    <string name="masculina">Masculina</string>
+    <string name="categor_a_masculina">Categoría Masculina</string>
+    <string name="tenistas_masculinos">Tenistas Masculinos</string>
+    <string name="vs">Vs</string>
+    <string name="_0">0%</string>
+    <string name="jugar">Jugar</string>
+    <string name="probabilidad">Probabilidad</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="restultado">Restultado:</string>
+    <string name="player2">Player2</string>
+    <string name="player1">Player1</string>
+    <string name="ganador">Ganador:</string>
+    <string name="rejugada">Rejugada</string>
+    <string name="musica">Musica</string>
+</resources>

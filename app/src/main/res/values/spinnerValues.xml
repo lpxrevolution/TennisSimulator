@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tenistas_masculinos">
+        <item>Carlos Alcaraz</item>
+        <item>Novak Djoković</item>
+        <item>Casper Ruud</item>
+        <item>Stefanos Tsitsipas</item>
+        <item>Andrey Rublev</item>
+        <item>Rafael Nadal</item>
+        <item>Félix Auger-Aliassime</item>
+        <item>Taylor Fritz</item>
+        <item>Holger Rune</item>
+    </string-array>
+    <string-array name="tenistas_femeninas">
+        <item>Iga Swiatek</item>
+        <item>Aryna Sabalenka</item>
+        <item>Ons Jabeur</item>
+        <item>Jessica Pegula</item>
+        <item>Caroline Garcia</item>
+        <item>Coco Gauff</item>
+        <item>Maria Sakkari</item>
+        <item>Daria Kasatkina</item>
+        <item>Belinda Bencic</item>
+    </string-array>
+</resources>
